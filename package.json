@@ -1,0 +1,37 @@
+{
+  "name": "@preetanshu/finboss-shared",
+  "version": "1.0.0",
+  "description": "Shared logic, types, and services for FinBoss applications (Web and Mobile)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/preetanshumishra/FinBossShared.git"
+  },
+  "keywords": [
+    "finboss",
+    "finance",
+    "shared",
+    "services",
+    "stores",
+    "types"
+  ],
+  "author": "Preetanshu Mishra",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "zustand": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "private"
+  }
+}
