@@ -2,12 +2,12 @@
 export * from './types/index';
 
 // Export services
-export { authService } from './authService';
-export { transactionService } from './transactionService';
-export { budgetService } from './budgetService';
-export { categoryService } from './categoryService';
-export { analyticsService } from './analyticsService';
-export { api } from './api';
+export { authService } from './services/authService';
+export { transactionService } from './services/transactionService';
+export { budgetService } from './services/budgetService';
+export { categoryService } from './services/categoryService';
+export { analyticsService } from './services/analyticsService';
+export { api } from './services/api';
 
 // Export stores
 export { useAuthStore } from './stores/authStore';
