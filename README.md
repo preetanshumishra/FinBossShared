@@ -53,6 +53,26 @@ const transactions = await transactionService.getAll();
 const summary = await transactionService.getSummary();
 ```
 
+## Project Structure
+
+```
+src/
+├── services/          # API services
+│   ├── authService.ts
+│   ├── transactionService.ts
+│   ├── budgetService.ts
+│   ├── categoryService.ts
+│   ├── analyticsService.ts
+│   └── api.ts
+├── stores/            # Zustand state management
+│   └── authStore.ts
+├── types/             # TypeScript interfaces
+│   └── index.ts
+├── utils/             # Utility functions
+│   └── exportUtils.ts
+└── index.ts          # Main export file
+```
+
 ## Development
 
 ### Build
