@@ -9,7 +9,7 @@ const getApiBaseUrl = (): string => {
   if (typeof process !== 'undefined' && process.env?.VITE_API_BASE_URL) {
     return process.env.VITE_API_BASE_URL;
   }
-  return 'http://localhost:5000';
+  return 'https://finbossapi-production.up.railway.app';
 };
 
 const API_BASE_URL = getApiBaseUrl();
