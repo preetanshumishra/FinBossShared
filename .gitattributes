@@ -25,3 +25,9 @@ README.md text eol=lf
 *.jpg binary
 *.jpeg binary
 *.gif binary
+
+# GitHub language detection
+node_modules/** linguist-vendored linguist-generated
+dist/** linguist-generated
+build/** linguist-generated
+lib/** linguist-generated
