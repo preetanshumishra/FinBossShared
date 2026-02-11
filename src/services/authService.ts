@@ -1,5 +1,5 @@
 import { api } from './api';
-import type { AuthResponse, LoginRequest, RegisterRequest, User } from './types/index';
+import type { AuthResponse, LoginRequest, RegisterRequest, User } from '../types/index';
 
 interface PasswordChangeRequest {
   currentPassword: string;
