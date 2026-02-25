@@ -9,7 +9,7 @@ const getApiBaseUrl = (): string => {
   if (typeof process !== 'undefined' && process.env?.VITE_API_BASE_URL) {
     return process.env.VITE_API_BASE_URL;
   }
-  return 'https://finbossapi-production.up.railway.app';
+  return 'https://finbossapi-gx2r7kziwa-uc.a.run.app';
 };
 
 const API_BASE_URL = getApiBaseUrl();
